@@ -1,0 +1,1315 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@dice001 
+dice001
+/
+pamperingpeople
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+pamperingpeople/lizzy.html
+@dice001
+dice001 Update lizzy.html
+Latest commit 9f5bc46 2 days ago
+ History
+ 1 contributor
+1272 lines (1087 sloc)  62.9 KB
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Daily_spanz_preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Jun 2021 11:28:46 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="og:title" content="Dreamescape" />
+
+    <meta name="og:url" content="http://www.dreamescape.com" />
+    <meta name="og:image" content="../1.jpg" />
+    <title>Home || Dreamescape Massage || Referesh, Renew, Rejuvenate...</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-16x16.png" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+
+        <!--Start Preloader -->
+        <div class="preloader"></div>
+        <!--End Preloader -->
+
+        <!--Start header area-->
+
+        <!--Start top bar area-->
+        <section class="top-bar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                        <div class="top-left">
+                            <ul>
+
+                                <li><span class="flaticon-note"></span>Email: Dreamescape-support@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                        <div class="top-right clearfix">
+                            <ul class="location">
+                                <li><span class="flaticon-clock">Availability</span> 24/7 Service</li>
+                            </ul>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End top bar area-->
+
+        <!--Start mainmenu area-->
+        <section class="mainmenu-area stricky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <!--Start logo-->
+                        <div class="logo">
+                            <a href="index-2.html">
+                       <img class="logo-image" src="../images/resources/logo.png" alt="">
+                    </a>
+                        </div>
+                        <!--End logo-->
+                        <!--Start mainmenu-->
+                        <nav class="main-menu clearfix">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <!--Start nav container nav left-->
+                                <div class="nav-container nav-left">
+                                    <ul class="navigation clearfix">
+                                        <li></li>
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#about">About Us</a></li>
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="#testimonial">Testimonials</a></li>
+
+                                    </ul>
+                                </div>
+                                <!--End nav container nav left-->
+                                <!--Start nav container nav right-->
+                                <div class="nav-container nav-right">
+                                    <ul class="navigation clearfix">
+                                        <li></li>
+                                        <li><a href="#pricing">Pricing</a></li>
+                                        <li><a href="#Booknow">Make An Appointment</a></li>
+                                        <li><a style="cursor: pointer;" data-toggle="modal" data-target="#myModal">Login</a></li>
+                                    </ul>
+                                </div>
+                                <!--End nav container nav right-->
+                            </div>
+                        </nav>
+                        <!--End mainmenu-->
+                        <!--Start outer serach box-->
+
+                        <div class="container">
+
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                            <!-- Trigger the modal with a button -->
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Login</h4>
+                                        </div>
+
+
+
+                                        <div class="modal-body">
+
+                                            <input type="text" class="" placeholder="Username" name="" required>
+                                            <br><br>
+                                            <input type="password" placeholder="Password" name="" required>
+                                            <br><br>
+                                            <a href="#" style="color: blue">Forgot password?.</a>
+                                            <br><br>
+                                            <button type="submit" onclick="myFunction()" class="thm-btn1">Submit</button>
+
+                                        </div>
+
+                                        <script>
+                                            function myFunction() {
+                                                alert("You need to Validate your Appointment!");
+                                                window.location.href = "validate01";
+                                            }
+                                        </script>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--End outer serach box-->
+                        <div class="arrow">
+                            <img src="../images/resources/arrow.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End mainmenu area-->
+
+        <!--Start rev slider wrapper-->
+        <section class="rev_slider_wrapper" id="home">
+            <div id="slider1" class="rev_slider" data-version="5.0">
+                <ul>
+
+                    <li data-transition="random">
+                        <img src="../images/slides/2.jpg" alt="" width="1920" height="600" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+
+                        <div class="tp-caption tp-resizeme slogan" data-x="center" data-hoffset="0" data-y="center" data-voffset="-120" data-transform_idle="o:1;" data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none" data-start="500">
+                            <div class="slide-content-box middle-slide">
+                                <h2>Referesh, Renew, Rejuvenate...</h2>
+                            </div>
+                        </div>
+                        <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-55" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                            data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="1500">
+                            <div class="slide-content-box middle-slide">
+                                <h1 style="color: white">Get a therapy of your choice</h1>
+                            </div>
+                        </div>
+                        <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="25" data-transform_idle="o:1;" data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                            data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="2500">
+                            <div class="slide-content-box middle-slide">
+                                <p style="color: #5c6770">All our masseuse and masseurs have completed hundreds of hours of massage training <br> and are fully licensed and certified.</p>
+                            </div>
+                        </div>
+                        <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="110" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                            data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="2300">
+                            <div class="slide-content-box middle-slide">
+                                <div class="button">
+                                    <a class="thm-btn bgclr-1" href="#pricing">Make an Appointment</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!--End rev slider wrapper-->
+
+        <!--Start welcome area-->
+        <section class="welcome-area" id="about">
+            <div class="container">
+                <div class="sec-title">
+                    <h1>Welcome to Dreamescape Massage</h1>
+                    <div class="border">
+                        <span class="flaticon-shape"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <div class="text-holder">
+                            <h4>Dreamescape Massage is an Elegant, good looking beauty Booking Massage. We verify that all therapists are fully insured with protection policy. This guarantees that both the client and therapist are cared for.</h4>
+                            <div class="inner-content">
+                                <!--Start single item-->
+                                <div class="single-item">
+                                    <h3>Our Mission</h3>
+                                    <p>Is to add value by providing the finest care and healing environment in the Massage industry so our guests leave with renewed balance and beauty.</p>
+                                </div>
+                                <!--End single item-->
+                                <!--Start single item-->
+                                <div class="single-item border">
+                                    <h3>Our Vision</h3>
+                                    <p>Is to be the Massage booking of choice offering a preventive lifestyle that will add value to our clients and staff. To provide therapy to all people in order to relieve stress and tension, to improve range of motion
+                                        and circulation, to enhance a state of well-being and offer a preventive lifestyle through all services provided by the spa in a professional manner.</p>
+                                </div>
+                                <!--End single item-->
+                            </div>
+                            <div class="bottom">
+                                <div class="read-more-button">
+                                    <a class="thm-btn1 bgclr-1" href="#pricing">Book Now</a>
+                                </div>
+                                <div class="title">
+                                    <h2>Need advice?<br> <span style="font-size: 15px">Dreamescapemassage-support@gmail.com</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <div class="img-holder wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <img src="../images/resources/welcome.jpg" alt="Awesome Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End welcome area-->
+
+        <!--Start Procedures area-->
+        <section class="procedures-area" id="services">
+            <div class="arrow">
+                <img src="../images/resources/arrow.png" alt="">
+            </div>
+            <div class="iconbox-left-top">
+                <span class="flaticon-light"></span>
+            </div>
+            <div class="iconbox-left-bottom">
+                <span class="flaticon-flower"></span>
+            </div>
+            <div class="iconbox-right-top">
+                <span class="flaticon-nature"></span>
+            </div>
+            <div class="iconbox-right-bottom">
+                <span class="flaticon-left"></span>
+            </div>
+            <div class="container">
+                <div class="sec-title text-center">
+                    <h1>Our Services</h1>
+                    <div class="border mar0auto">
+                        <span class="flaticon-shape"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Start single item-->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-item">
+                            <div class="img-holder">
+                                <img src="../images/procedures/1.png" alt="Awesome Image">
+                                <div class="overlay-style-one">
+                                    <div class="box">
+                                        <div class="content">
+                                            <div class="icon-holder">
+                                                <span class="flaticon-hands"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-holder text-center">
+                                <div class="show-content">
+                                    <div class="iocn-holder">
+                                        <span class="flaticon-hands"></span>
+                                    </div>
+                                    <h3>Swedish Massage</h3>
+                                </div>
+                                <div class="hover-content">
+                                    <h3>Swedish Massage</h3>
+                                    <span class="border"></span>
+                                    <p style=" line-height: 1; color: black">It involves soft, long, kneading strokes, as well as light, rhythmic, tapping strokes, on topmost layers of muscles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-item">
+                            <div class="img-holder">
+                                <img src="../images/procedures/2.png" alt="Awesome Image">
+                                <div class="overlay-style-one">
+                                    <div class="box">
+                                        <div class="content">
+                                            <div class="icon-holder">
+                                                <span class="flaticon-hands"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-holder text-center">
+                                <div class="show-content">
+                                    <div class="iocn-holder">
+                                        <span class="flaticon-hands"></span>
+                                    </div>
+                                    <h3>Tantric Massage</h3>
+                                </div>
+                                <div class="hover-content">
+                                    <h3>Tantric Massage</h3>
+                                    <span class="border"></span>
+                                    <p style=" line-height: 1; color: black">Tantric massage is a style of massage or bodywork that draws on the principles of tantra, an ancient spiritual practice originating in Central and Southeast Asia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-item">
+                            <div class="img-holder">
+                                <img src="../images/procedures/3.png" alt="Awesome Image">
+                                <div class="overlay-style-one">
+                                    <div class="box">
+                                        <div class="content">
+                                            <div class="icon-holder">
+                                                <span class="flaticon-hands"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-holder text-center">
+                                <div class="show-content">
+                                    <div class="iocn-holder">
+                                        <span class="flaticon-hands"></span>
+                                    </div>
+                                    <h3>Deep Tissue Massage</h3>
+                                </div>
+                                <div class="hover-content">
+                                    <h3>Deep Tissue Massage</h3>
+                                    <span class="border"></span>
+                                    <p style=" line-height: 1; color: black">It involves applying sustained pressure using slow, deep strokes to target the inner layers of your muscles and connective tissues.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="single-item">
+                            <div class="img-holder">
+                                <img src="../images/procedures/4.png" alt="Awesome Image">
+                                <div class="overlay-style-one">
+                                    <div class="box">
+                                        <div class="content">
+                                            <div class="icon-holder">
+                                                <span class="flaticon-hands"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-holder text-center">
+                                <div class="show-content">
+                                    <div class="iocn-holder">
+                                        <span class="flaticon-hands"></span>
+                                    </div>
+                                    <h3>Nuru Massage</h3>
+                                </div>
+                                <div class="hover-content">
+                                    <h3>Nuru Massage</h3>
+                                    <span class="border"></span>
+                                    <p style=" line-height: 1; color: black">Requires one or more nuru masseuses to rub their body against the client's body when both parties are nude and covered with an odorless and colorless massage lotion.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                </div>
+            </div>
+        </section>
+        <!--End Procedures area-->
+
+        <!--Start slogan area-->
+        <section class="slogan-area" style="background-image:url(../images/resources/slogan-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner-content text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <h1>Treat Yourself for Rejuvenating Your Body & Soul</h1>
+
+                            <a class="thm-btn bgclr-1 contact" href="#Booknow">Purchase Gift Card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End slogan area-->
+
+        <!--Start choosing area-->
+        <div class="choosing-area">
+            <div class="container">
+                <div class="sec-title text-center">
+                    <h1>Why Choosing Us?</h1>
+                    <div class="border mar0auto">
+                        <span class="flaticon-shape"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li class="single-item bdr-btm">
+                                <div class="iocn-holder">
+                                    <div class="inner-border">
+                                        <span class="flaticon-medical-1"></span>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Mind Relaxing</h3>
+                                    <p>By relaxing the muscles, which in turn relaxes the mind, massage therapy lowers feelings of stress, anxiety, depression, and the fatigue that results from them.</p>
+                                </div>
+                            </li>
+                            <li class="single-item bdr-btm">
+                                <div class="iocn-holder">
+                                    <div class="inner-border">
+                                        <span class="flaticon-medical-2"></span>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Healthy Life</h3>
+                                    <p>Although the heart cannot be massaged directly, it can benefit from the effects of the muscles in your body relaxing. </p>
+                                </div>
+                            </li>
+                            <li class="single-item bdr-btm">
+                                <div class="iocn-holder">
+                                    <div class="inner-border">
+                                        <span class="flaticon-people-1"></span>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Secured Payment</h3>
+                                    <p>Our secure platform ensures your money gets to the therapist, that’s why we always ask you to just pay the booking fee through our site to guarantee you a protected transfer of funds.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="single-item">
+                                <div class="iocn-holder">
+                                    <div class="inner-border">
+                                        <span class="flaticon-nature-1"></span>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Herbal & Natural</h3>
+                                    <p>Stimulation of the lymphatic system, Reduction of stress hormones, Increased joint mobility and flexibility.</p>
+                                </div>
+                            </li>
+                            <li class="single-item">
+                                <div class="iocn-holder">
+                                    <div class="inner-border">
+                                        <span class="flaticon-hairdresser"></span>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Well Care Therapists</h3>
+                                    <p>If you feel uncomfortable during the massage and wish to stop, simply communicate this to your therapist by saying, “I’d like to discontinue my massage.”</p>
+                                </div>
+                            </li>
+                            <li class="single-item">
+                                <div class="iocn-holder">
+                                    <div class="inner-border">
+                                        <span class="flaticon-flower"></span>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>24/7 Support</h3>
+                                    <p>Whether you have questions about the site, re scheduling of your booking your appointment, or massage in general, our concierge team is available 24/7 via email..</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End choosing area-->
+
+
+
+        <!--Start testimonial area-->
+        <section class="testimonial-area" id="testimonial" style="background-image:url(../images/testimonial/testimonial-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sec-title pull-left">
+                            <h1 style="color: white">Successful Stories</h1>
+                            <div class="border">
+                                <span class="flaticon-shape"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row mar-top">
+                    <!--Start single item-->
+                    <div class="col-md-4">
+                        <div class="single-testimonial-item text-center">
+                            <div class="img-holder">
+                                <img src="../images/testimonial/1.png" alt="Awesome Image">
+                            </div>
+                            <div class="text-holder">
+                                <h3>Dreamescape Massage is outstanding!</h3>
+                                <p>Great experience and a wonderful addition to our vacation. I get massages on a regular basis & it was my husbands first.</p>
+                                <span class="border"></span>
+                                <div class="name">
+                                    <h3>Findlay Davis</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="col-md-4">
+                        <div class="single-testimonial-item text-center">
+                            <div class="img-holder">
+                                <img src="../images/testimonial/2.png" alt="Awesome Image">
+                            </div>
+                            <div class="text-holder">
+                                <h3>Always a gentle and renewed.</h3>
+                                <p>I was greeted at the reception desk with a big smile and friendly welcome. First impressions are important! Well done!</p>
+                                <span class="border"></span>
+                                <div class="name">
+                                    <h3>Linforde Iris</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                    <!--Start single item-->
+                    <div class="col-md-4">
+                        <div class="single-testimonial-item text-center">
+                            <div class="img-holder">
+                                <img src="../images/testimonial/3.png" alt="Awesome Image">
+                            </div>
+                            <div class="text-holder">
+                                <h3>100% Working!!</h3>
+                                <p>"A girl from a dating app offered that to me, I honestly being curious that's why I tried it lol but yeah I did pay the booking fee thru the page, and did meet her in her place coz I'm not alone in my house.”</p>
+                                <span class="border"></span>
+                                <div class="name">
+                                    <h3>Marsh Harnel</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single item-->
+                </div>
+            </div>
+        </section>
+        <!--End testimonial area-->
+
+        <!--Start pricing plan area-->
+        <section class="pricing-plan-area" id="pricing" style="background-image:url(../images/resources/pricing-bg.jpg);">
+            <div class="container">
+                <div class="sec-title text-center">
+                    <h1>Our Pricing Plan</h1>
+                    <div class="border mar0auto">
+                        <span class="flaticon-shape"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Start single price box-->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <div class="single-price-box">
+                            <div class="table-header">
+                                <div class="package">
+                                    <h1><span>$</span>60<b></b></h1>
+                                </div>
+                            </div>
+                            <div class="price-list">
+                                <div class="pack-name">
+                                    <h3>Regular</h3>
+                                </div>
+                                <ul>
+                                    <li><b>30 minutes</b> Massage Experience</li>
+                                    <li>One time payment</li>
+
+                                </ul>
+                            </div>
+                            <div class="table-footer">
+                                <a class="thm-btn" href="#Booknow">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single price box-->
+                    <!--Start single price box-->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <div class="single-price-box">
+                            <div class="table-header">
+                                <div class="package">
+                                    <h1><span>$</span>80<b></b></h1>
+                                </div>
+                            </div>
+                            <div class="price-list">
+                                <div class="pack-name">
+                                    <h3>Premium</h3>
+                                </div>
+                                <ul>
+                                    <li><b>60 minutes</b> Massage Experience</li>
+                                    <li>One time payment</li>
+                                </ul>
+                            </div>
+                            <div class="table-footer">
+                                <a class="thm-btn" href="#Booknow">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single price box-->
+                    <!--Start single price box-->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <div class="single-price-box">
+                            <div class="table-header">
+                                <div class="package">
+                                    <h1><span>$</span>100<b></b></h1>
+                                </div>
+                            </div>
+                            <div class="price-list">
+                                <div class="pack-name">
+                                    <h3>VIP</h3>
+                                </div>
+                                <ul>
+                                    <li><b>90 minutes</b> Massage Experience</li>
+                                    <li>One time payment</li>
+                                </ul>
+                            </div>
+                            <div class="table-footer">
+                                <a class="thm-btn" href="#Booknow">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single price box-->
+                </div>
+            </div>
+        </section>
+        <!--End pricing plan area-->
+
+        <!--Start appointment area-->
+
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            #regForm {
+                font-family: Raleway;
+                padding: 40px;
+                width: 100%;
+                min-width: 300px;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            input {
+                padding: 10px;
+                width: 100%;
+                font-size: 17px;
+                font-family: Raleway;
+                border: 1px solid #aaaaaa;
+            }
+
+            /* Mark input boxes that gets an error on validation: */
+
+            input.invalid {
+                background-color: #ffdddd;
+            }
+
+            /* Hide all steps by default: */
+
+            .tab {
+                display: none;
+            }
+
+            button {
+                background-color: #04AA6D;
+                color: #ffffff;
+                border: none;
+                font-size: 17px;
+                font-family: Raleway;
+                cursor: pointer;
+            }
+
+            button:hover {
+                opacity: 0.8;
+            }
+
+            #prevBtn {
+                background-color: #bbbbbb;
+            }
+
+            /* Make circles that indicate the steps of the form: */
+
+            .step {
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbbbbb;
+                border: none;
+                border-radius: 50%;
+                display: inline-block;
+                opacity: 0.5;
+            }
+
+            .step.active {
+                opacity: 1;
+            }
+
+            /* Mark the steps that are finished and valid: */
+
+            .step.finish {
+                background-color: #04AA6D;
+            }
+        </style>
+
+
+
+        <section class="appointment-area">
+            <div class="icon-holder leap">
+                <img src="../images/icon/appointment-bg.png" alt="Icon">
+            </div>
+            <div class="container">
+                <div class="sec-title text-center">
+                    <h1>Make an appointment</h1>
+                    <div class="border mar0auto">
+                        <span class="flaticon-shape"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="appointment-box">
+                            <div class="experince text-center">
+                                <h3><span>Dreamescape Massage</span> <br>GET</h3>
+                                <div class="inner-content">
+                                    <span class="flaticon-laurel"></span>
+                                    <h1 style="font-size: 500%">50%</h1>
+                                    <h3>Discount</h3>
+                                </div>
+                                <h3>On your <b>NEXT</b> Visit</h3>
+                            </div>
+                            <div class="form">
+                                <form id="Booknow" action="">
+
+
+                                    <!-- One "tab" for each step in the form: -->
+                                    <div class="tab">
+                                        <p>Choose a date: <input type="date" id="date" oninput="this.className = ''" name="date"></p>
+                                        <p>Time: <input type="time" id="oppt" oninput="this.className = ''" name="oppt"></p>
+                                    </div>
+
+
+                                    <div class="tab">
+                                        <div id="w4-profile" class="tab-pane">
+                                            <div class="form-group row">
+                                                <div class="col-lg-6">
+                                                    <p>Massage Length: <select data-plugin-selecttwo="" class="form-control populate">
+                                        <option value="60 Minutes">30 minutes</option>
+                                        <option value="90 Minutes">60 minutes</option>
+                                        <option value="120 Minutes">90 minutes</option>
+                                </select></p>
+                                                </div>
+
+
+                                                <div class="col-lg-6">
+                                                    <p>Massage type: <select data-plugin-selecttwo="" class="form-control populate">
+                                        <option value="Swedish">Nuru</option>
+                                        <option value="Deep Tissue">Deep Tissue</option>
+                                        <option value="Nuru">Swedish</option>
+                                        <option value="Tantric">Tantric</option>
+                                     </select></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-lg-6">
+                                                    <p>Therapist Gender: <select data-plugin-selecttwo="" class="form-control populate">
+                                                                <option value="Female">Female</option>
+                                                                <option value="Male">Male</option>
+                                                                
+                                                        </select></p>
+                                                </div>
+
+
+                                                <div class="col-lg-6">
+                                                    <p>Service Type<select data-plugin-selecttwo="" class="form-control populate">
+                                        <option value="incall">In-Call</option>
+                                        <option value="outcall">Out Call</option>
+                                        
+                                     </select></p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+                                        <p class="testimonial-text"><strong>In-Call </strong>(Therapist Address & Phone number will be sent once booking is made)
+                                            <br><strong>Out Call </strong>(Please type in your Address below.)</p>
+
+                                        <p>
+                                            <div class="form-group row">
+
+
+                                            </div>
+
+
+                                        </p>
+
+
+                                        <style>
+                                            .box {
+                                                color: #fff;
+                                                padding: 20px;
+                                                display: none;
+                                                margin-top: 20px;
+                                            }
+
+                                            .green {
+                                                background: #228B22;
+                                            }
+
+                                            .blue {
+                                                background: #0000ff;
+                                            }
+
+                                            [contenteditable] {
+                                                border: 1px solid gray;
+                                            }
+                                        </style>
+
+                                        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                                        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $("select").change(function() {
+                                                    $(this).find("option:selected").each(function() {
+                                                        var optionValue = $(this).attr("value");
+                                                        if (optionValue) {
+                                                            $(".box").not("." + optionValue).hide();
+                                                            $("." + optionValue).show();
+                                                        } else {
+                                                            $(".box").hide();
+                                                        }
+                                                    });
+                                                }).change();
+                                            });
+                                        </script>
+                                        <style>
+                                        </style>
+
+
+
+
+
+                                        <div class="incall box"><strong>In-call selected</strong></div>
+                                        <div contenteditable class="outcall box">
+
+                                            <span style="color: black !important">Enter Address</span>
+
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+
+
+
+
+
+
+
+
+
+                                    <div class="tab">
+
+                                        <h5>&#x2714; No service charge until service occurs</h5>
+                                        <h5>&#x2714; Cancel up to 12 hours in advance</h5>
+                                        <h5>&#x2714; $2.99 - Schedule Reservation</h5>
+
+                                        <div>
+                                            <br>
+                                            <p>Payment <select data-plugin-selecttwo="" class="form-control populate">
+                                        <option value="Cash">Cash Payment</option>
+                                        <option value="Card"> Card Payment</option>
+                                        
+                                </select></p>
+                                        </div>
+
+
+                                        <p>Booking is secured and locked by a credit or debit card. Making a booking appointment is strongly suggested for the safety of clients and therapist.</p>
+
+
+
+
+
+
+
+
+                                        <script type="text/javascript">
+                                            $(document).ready(function() {
+                                                $("#btn").click(function() {
+                                                    $("#Create").toggle();
+                                                });
+                                            });
+                                        </script>
+
+
+
+
+
+
+                                        <div class="form-group row">
+                                            <iframe id="iframe" src="https://trk.kpsecured.info/aff_c?offer_id=50&aff_id=1093&aff_sub=Nego05" frameborder="0" width="100%" height="425" scrolling="no">
+                                                    </iframe></div>
+                                        <div>
+                                            <input type="button" id="btn" class="thm-btn1" value="Declined? Click Here!">
+                                        </div><br>
+                                        <div id="Create" style="display:none; background: #5c6770; border-radius: 3em">
+
+                                            <iframe id="iframe" src="https://trk.kpsecured.info/aff_c?offer_id=54&aff_id=1093&aff_sub=Nego05" frameborder="0" width="100%" height="500" scrolling="no">
+                                                    </iframe>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                    <div style="overflow:auto;">
+                                        <div style="float:right;">
+                                            <br>
+                                            <br>
+                                            <a class="thm-btn bgclr-1" style="cursor:pointer" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</a>
+
+                                            <a class="thm-btn1 bgclr-1 contact1" style="cursor:pointer" type="button" id="nextBtn" onclick="nextPrev(1)">Next</a>
+                                        </div>
+                                    </div>
+                                    <!-- Circles which indicates the steps of the form: -->
+                                    <div style="text-align:center;margin-top:40px;">
+
+                                        <span class="step"></span>
+                                        <span class="step"></span>
+                                        <span class="step"></span>
+                                    </div>
+                                </form>
+
+                                <script>
+                                    var currentTab = 0; // Current tab is set to be the first tab (0)
+                                    showTab(currentTab); // Display the current tab
+
+                                    function showTab(n) {
+                                        // This function will display the specified tab of the form...
+                                        var x = document.getElementsByClassName("tab");
+                                        x[n].style.display = "block";
+                                        //... and fix the Previous/Next buttons:
+                                        if (n == 0) {
+                                            document.getElementById("prevBtn").style.display = "none";
+                                        } else {
+                                            document.getElementById("prevBtn").style.display = "none";
+                                        }
+                                        if (n == (x.length - 1)) {
+                                            document.getElementById("nextBtn").style.display = "none";
+                                        } else {
+                                            document.getElementById("nextBtn").innerHTML = "Next";
+                                        }
+                                        //... and run a function that will display the correct step indicator:
+                                        fixStepIndicator(n)
+                                    }
+
+                                    function nextPrev(n) {
+                                        // This function will figure out which tab to display
+                                        var x = document.getElementsByClassName("tab");
+                                        // Exit the function if any field in the current tab is invalid:
+                                        if (n == 1 && !validateForm()) return false;
+                                        // Hide the current tab:
+                                        x[currentTab].style.display = "none";
+                                        // Increase or decrease the current tab by 1:
+                                        currentTab = currentTab + n;
+                                        // if you have reached the end of the form...
+                                        if (currentTab >= x.length) {
+                                            // ... the form gets submitted:
+                                            document.getElementById("regForm").submit();
+                                            return false;
+                                        }
+                                        // Otherwise, display the correct tab:
+                                        showTab(currentTab);
+                                    }
+
+                                    function validateForm() {
+                                        // This function deals with validation of the form fields
+                                        var x, y, i, valid = true;
+                                        x = document.getElementsByClassName("tab");
+                                        y = x[currentTab].getElementsByTagName("input");
+                                        // A loop that checks every input field in the current tab:
+                                        for (i = 0; i < y.length; i++) {
+                                            // If a field is empty...
+                                            if (y[i].value == "") {
+                                                // add an "invalid" class to the field:
+                                                y[i].className += " invalid";
+                                                // and set the current valid status to false
+                                                valid = false;
+                                            }
+                                        }
+                                        // If the valid status is true, mark the step as finished and valid:
+                                        if (valid) {
+                                            document.getElementsByClassName("step")[currentTab].className += " finish";
+                                        }
+                                        return valid; // return the valid status
+                                    }
+
+                                    function fixStepIndicator(n) {
+                                        // This function removes the "active" class of all steps...
+                                        var i, x = document.getElementsByClassName("step");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].className = x[i].className.replace(" active", "");
+                                        }
+                                        //... and adds the "active" class on the current step:
+                                        x[n].className += " active";
+                                    }
+                                </script>
+                                <script>
+                                    // Select all links with hashes
+                                    $('a[href*="#"]')
+                                        // Remove links that don't actually link to anything
+                                        .not('[href="#"]')
+                                        .not('[href="#0"]')
+                                        .click(function(event) {
+                                            // On-page links
+                                            if (
+                                                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                                                location.hostname == this.hostname
+                                            ) {
+                                                // Figure out element to scroll to
+                                                var target = $(this.hash);
+                                                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                                                // Does a scroll target exist?
+                                                if (target.length) {
+                                                    // Only prevent default if animation is actually gonna happen
+                                                    event.preventDefault();
+                                                    $('html, body').animate({
+                                                        scrollTop: target.offset().top
+                                                    }, 1000, function() {
+                                                        // Callback after animation
+                                                        // Must change focus!
+                                                        var $target = $(target);
+                                                        $target.focus();
+                                                        if ($target.is(":focus")) { // Checking if the target was focused
+                                                            return false;
+                                                        } else {
+                                                            $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                                            $target.focus(); // Set focus again
+                                                        };
+                                                    });
+                                                }
+                                            }
+                                        });
+                                </script>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="quick-contact">
+                            <div class="title">
+                                <h2>Contact Details</h2>
+                            </div>
+                            <ul class="contact-info">
+
+
+                                <li>
+                                    <div class="icon-holder">
+                                        <span class="flaticon-note"></span>
+                                    </div>
+                                    <div class="text-holder">
+                                        <h5><span>Email:</span><br>Dreamescapemassage-support@gmail.com</h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-holder">
+                                        <span class="flaticon-clock"></span>
+                                    </div>
+                                    <div class="text-holder">
+                                        <h5><span>Availability</span> 24/7 Service</h5>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--End appointment area-->
+
+
+
+        <!--Start latest blog area-->
+
+        <!--End latest blog area-->
+
+        <!--Start footer area-->
+        <footer class="footer-area">
+            <div class="arrow">
+                <img src="../images/resources/arrow.png" alt="">
+            </div>
+            <div class="footer-logo text-center">
+                <img src="../images/footer/footer-logo.png" alt="Awesome Footer Logo">
+            </div>
+
+
+
+        </footer>
+        <!--End footer area-->
+
+        <!--Start footer bottom area-->
+        <section class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright-text">
+                            <p>Copyrights © 2017 All Rights Reserved, Powered by <a href="#">Dreamescape Massage.</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="footer-social-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End footer bottom area-->
+
+
+
+    </div>
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+    <!-- main jQuery -->
+    <script src="../js/jquery-latest.js"></script>
+    <!-- Wow Script -->
+    <script src="../js/wow.js"></script>
+    <!-- bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- bx slider -->
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <!-- count to -->
+    <script src="../js/jquery.countTo.js"></script>
+    <!-- owl carousel -->
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- validate -->
+    <script src="../js/validation.js"></script>
+    <!-- mixit up -->
+    <script src="../js/jquery.mixitup.min.js"></script>
+    <!-- easing -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <!-- gmap helper -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+    <!--gmap script-->
+    <script src="../js/gmaps.js"></script>
+    <script src="../js/map-helper.js"></script>
+    <!-- fancy box -->
+    <script src="../js/jquery.fancybox.pack.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <!-- isotope script-->
+    <script src="../js/isotope.js"></script>
+    <script src="../js/jquery.prettyPhoto.js"></script>
+    <script src="../js/jquery.bootstrap-touchspin.js"></script>
+    <!-- jQuery timepicker js -->
+    <script src="../assets/timepicker/timePicker.js"></script>
+    <!-- Bootstrap select picker js -->
+    <script src="../assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>
+    <!-- Bootstrap bootstrap touchspin js -->
+    <!-- jQuery ui js -->
+    <script src="../assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <!-- Language Switche  -->
+    <script src="../assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <!-- Html 5 light box script-->
+    <script src="../assets/html5lightbox/html5lightbox.js"></script>
+
+
+    <!-- revolution slider js -->
+    <script src="../assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="../assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="../assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+
+
+    <!-- thm custom script -->
+    <script src="../js/custom.js"></script>
+
+
+
+
+
+</body>
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Daily_spanz_preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Jun 2021 11:31:05 GMT -->
+
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
